@@ -1,0 +1,93 @@
+---
+title: "Mission Impossible 2"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Import via a csv
+
+Import the csv file called "mi2DataAll".
+
+```{r}
+library(readr)
+gdp <- 
+```
+
+# Delete the column
+
+Delete the column "X1".
+
+```{r}
+ 
+```
+
+# Remove missing values
+
+Remove all missing values from the dataframe "gdp".
+
+```{r}
+gdp2 <- 
+```
+
+# Gather the data
+
+You need to gather (modify from wide to long) the dataframe "gdp2" to get three column: "country", "year", "gdp".
+
+```{r}
+library(tidyr)
+gdp3 <- 
+```
+
+# Filter the data
+
+Filter the data to only keep the following countries: "united states", "canada", "japan", "belgique", "FRA".
+
+```{r}
+library(dplyr)
+gdp4 <- 
+```
+
+# Import via a gsheet 
+
+Import the data containing the longitute and latitude from this gsheet : <https://docs.google.com/spreadsheets/d/1VUxLOL2GH2ULrZ-lqQUa5IPKeSH-4dy_hTevZUyqbv4/edit#gid=0>
+
+```{r}
+library(gsheet)
+locations <- 
+```
+
+# Combining tables
+
+Join the data frame "locations" to the data frame "gdp4". Before combining the data frames, make sure that all countries and columns have the same names!
+
+```{r}
+gdp5 <- 
+```
+
+# Delete a column
+
+Delete the column "Continent".
+
+```{r}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
