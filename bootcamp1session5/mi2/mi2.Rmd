@@ -34,7 +34,7 @@ gdp2 <-
 
 # Gather the data
 
-You need to gather (modify from wide to long) the dataframe "gdp2" to get three column: "country", "year", "gdp".
+You need to gather (modify from wide to long) the dataframe "gdp2" to get three columns: "country", "year", "gdp".
 
 ```{r}
 library(tidyr)
